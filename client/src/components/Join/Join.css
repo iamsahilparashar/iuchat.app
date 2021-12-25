@@ -1,0 +1,111 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url('./home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  /* width: 100wh; */
+}
+/* #root{
+  width:50% ;
+} */
+
+
+.joinOuterContainer {
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  /* height: 100vh; */
+  /* align-items: center; */
+  margin-top: 15%;
+  margin-left: 5%;
+  border: 4px solid black;
+  border-radius: 18px;
+  background-image: linear-gradient(  rgb(255 135 172), rgb(221 14 91));
+  width: 300px;
+  height: 300px;
+  box-shadow: 2px 2px 2px white, -2px -2px 2px pink;
+}
+
+.joinInnerContainer {
+  width: 100%;
+  margin: 3px 3px;
+  color: black;
+  font-weight: bold;
+}
+
+.joinInput {
+  border-radius: 10px;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  color: black;
+  font-size: 2.5wh;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  color: black !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-image: linear-gradient(  rgb(238, 142, 158), rgb(202, 80, 141));
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  height : 20%;
+   border-radius: 12px;
+   margin-top: 5px;
+}
+/* 
+.mt-20 {
+  margin-top: 20px;
+} */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 900px){
+  .joinOuterContainer {
+    width: 250px;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 720px){
+  .joinOuterContainer {
+    width: 210px;
+    height: 270px;
+  }
+}
+@media screen and (min-width: 250px) and (max-width: 400px){
+  .joinOuterContainer {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 250px){
+  .joinOuterContainer {
+    width: 200px;
+    height: 270px;
+  }
+
+}
